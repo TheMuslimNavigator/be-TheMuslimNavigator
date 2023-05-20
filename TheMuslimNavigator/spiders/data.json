@@ -1,0 +1,23 @@
+[
+{"event_name": "AMA High School Soccer Tournament", "event_link": "https://events.mymasjid.ca/e/546/ama-high-school-soccer-tournament"},
+{"event_name": "AMA Community Clean-up", "event_link": "https://forms.gle/J7w6xuYCWbAaKmiX9"},
+{"event_name": "Women's Fitness Classes", "event_link": "https://events.mymasjid.ca/e/554/womens-fitness-classes-may-june-2023"},
+{"event_name": "Boys Fun Day - May 20", "event_link": "https://events.mymasjid.ca/e/551/boys-fun-day"},
+{"event_name": "Friday Youth Soccer", "event_link": "https://events.mymasjid.ca/e/550/youth-friday-soccer-may"},
+{"event_name": "Sunday Men's Swimming", "event_link": "https://events.mymasjid.ca/e/553/sunday-mens-swimming-mayjune-2023"},
+{"event_name": "Boys Fun Contest", "event_link": "https://events.mymasjid.ca/e/549/boys-fun-contest-april-30"},
+{"event_name": "La Leche League - May 11", "event_link": "https://events.mymasjid.ca/e/552/la-leche-league-may-11"},
+{"event_name": "Classical Arabic Program (Winter 2023)", "event_link": "https://events.mymasjid.ca/e/496/classical-arabic-program-winter-2023-term"},
+{"event_name": "Kids Arabic Halaqa", "event_link": "https://events.mymasjid.ca/e/500/kids-arabic-halaqa"},
+{"event_name": "Sh. Munir's Tafseer Halaqa", "event_link": "https://events.mymasjid.ca/e/460/tafseer-halaqa"},
+{"event_name": "Quran Class for Convert Men", "event_link": "https://events.mymasjid.ca/e/443/quran-class-for-convert-men"},
+{"event_name": "Quran Class for Convert Women", "event_link": "https://events.mymasjid.ca/e/235/quran-class-for-female-converts"},
+{"event_name": "Brothers' Fitness Class", "event_link": "https://events.mymasjid.ca/e/450/ama-brothers-fitness-program"},
+{"event_name": "Seniors Fitness Classes", "event_link": "https://events.mymasjid.ca/e/237/fitness-class-for-seniors-women-men"},
+{"prayer_eng": "Fajr", "athan_time": "04:04 AM", "iqama_time": "04:29 AM", "prayer_ar": "الفجر"},
+{"prayer_eng": "Zuhr", "athan_time": "12:59 PM", "iqama_time": "01:30 PM", "prayer_ar": "الظهر"},
+{"prayer_eng": "Asr", "athan_time": "04:59 PM", "iqama_time": "05:30 PM", "prayer_ar": "العصر"},
+{"prayer_eng": "Maghrib", "athan_time": "08:18 PM", "iqama_time": "08:23 PM", "prayer_ar": "المغرب"},
+{"prayer_eng": "Isha", "athan_time": "09:55 PM", "iqama_time": "10:00 PM", "prayer_ar": "العشاء"},
+{"prayer_eng": "Jumuʿah", "athan_time": "01:00 PM", "iqama_time": null, "prayer_ar": "الجمعة"}
+]
