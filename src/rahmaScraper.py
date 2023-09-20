@@ -25,6 +25,8 @@ class RahmaSpider:
 
     def get_prayerTimes(self):
         prayerTimes = []
+        prayerTimes.append(
+            ("Masjid Al Rahma", "1216 Hunt Club Rd, Ottawa, ON K1V 2P1", "(613) 523-9977"))
         table = self.prayer_soup.find("table", {"class": "table table-sm"})
         if table is not None:
             for row in table.findAll("tr"):
@@ -45,7 +47,7 @@ class RahmaSpider:
         event_soup = BeautifulSoup(event_page, 'html.parser')
         event_description = event_soup.find(class_='content event_details')
         if event_description is not None:
-            eventInfo.append("event description: " + event_description.text)
+            eventInfo.append(event_description.text)
             # for description in event_description.find_all('p'):
             #     eventInfo.append(description.text)
             # for description in event_description.find_all('li'):
@@ -53,6 +55,6 @@ class RahmaSpider:
 
         if event_soup.find(class_='content event_poster') is not None:
             event_image = event_soup.find(class_='content event_poster')
-            eventInfo.append("event image: " + "events.mymasjid.ca" +
+            eventInfo.append("https://events.mymasjid.ca" +
                              event_image.find('img')['src'])
         return eventInfo
