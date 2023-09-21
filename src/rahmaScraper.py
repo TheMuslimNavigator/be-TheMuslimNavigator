@@ -31,14 +31,16 @@ class RahmaSpider:
         if table is not None:
             for row in table.findAll("tr"):
                 if row.find('td') is not None:
+                    if row.find('td').text == "Salāh":
+                        continue
                     prayer_eng = row.find('td').text
                     athan_time = row.find('td').find_next_sibling().text
                     iqama_time = row.find(
                         'td').find_next_sibling().find_next_sibling().text
-                    prayer_ar = row.find('td').find_next_sibling(
-                    ).find_next_sibling().find_next_sibling().text
+                    # prayer_ar = row.find('td').find_next_sibling(
+                    # ).find_next_sibling().find_next_sibling().text
                     prayerTimes.append(
-                        (prayer_eng, athan_time, iqama_time, prayer_ar))
+                        (prayer_eng, athan_time, iqama_time))
         return prayerTimes
 
     def get_eventInfo(self, event_link):
