@@ -20,7 +20,7 @@ class RahmaSpider:
                 event_name = row.find('td').text
                 event_link = row.find('a')['href']
                 event_description = self.get_eventInfo(event_link)
-                events.append((event_name, event_link, event_description))
+                events.append((event_name, event_link, event_description, "Rahma"))
         return events
 
     def get_prayerTimes(self):

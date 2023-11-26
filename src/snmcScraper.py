@@ -19,7 +19,7 @@ class SnmcSpider:
         events = self.events_soup.find_all('div', {'class': 'sbi_item'})
         for event in events:
             events_t.append([event.find('img')['alt'],
-                            event.find('a')['data-full-res']])
+                            event.find('a')['data-full-res']], "SNMC")
         return events_t
 
     def get_prayerTimes(self):
