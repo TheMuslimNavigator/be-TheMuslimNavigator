@@ -19,7 +19,7 @@ class SnmcSpider:
         events = self.events_soup.find_all('div', {'class': 'sbi_item'})
         for event in events:
             events_t.append([event.find('img')['alt'],
-                            event.find('a')['data-full-res']], "SNMC")
+                            event.find('a')['data-full-res'], "snmc"])
         return events_t
 
     def get_prayerTimes(self):
@@ -61,9 +61,7 @@ class SnmcSpider:
                 prayer_times.append(("Isha", athan_times[i], today_iqama[i]))
 
         prayer_times.append(
-            ("Jumma 1", "12:45 PM", "-"))
+            ("Jumuʿah", "12:00 PM", "-"))
         prayer_times.append(
-            ("Jumma 2", "1:45 PM", "-", ))
-        prayer_times.append(
-            ("Jumma 3", "2:45 PM", "-",))
+            ("Jumuʿah 2", "1:15 PM", "-", ))
         return prayer_times
